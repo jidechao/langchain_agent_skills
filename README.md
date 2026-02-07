@@ -17,8 +17,8 @@
 ### 1. 克隆并安装
 
 ```bash
-git clone https://github.com/NanmiCoder/skills-agent-proto.git
-cd skills-agent-proto
+git clone https://github.com/jidechao/langchain_agent_skills.git
+cd langchain_agent_skills
 uv sync
 ```
 
@@ -167,7 +167,7 @@ VITE_API_BASE_URL=http://127.0.0.1:8000 npm run dev
 ## 项目结构
 
 ```
-skills-agent-proto/
+langchain_agent_skills/
 ├── src/langchain_skills/         # 核心包
 │   ├── agent.py                  # LangChain Agent（Extended Thinking）
 │   ├── cli.py                    # CLI 入口（Rich 流式输出）
